@@ -1,12 +1,35 @@
-
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.align-custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 16rem;
+    gap: 10px;
+    margin-top: 2rem;
+}
+.contenedor-numero {
+    border: 1px solid grey;
+    padding: 20px 20px;
+    border-radius: 10px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 10rem;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 20px;
+    width: 65%;
+    margin: auto;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
